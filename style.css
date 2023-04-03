@@ -147,6 +147,9 @@ header .header-2 button {
   }
 }
 @media (max-width: 500px) {
+  .section-1 .section-empty {
+    display: none;
+  }
   .section-1 .section-text {
     width: 100%;
   }
@@ -279,8 +282,8 @@ header .header-2 button {
   }
 }
 @media (max-width: 500px) {
-  .section-3 {
-    background-color: black;
+  .section-3 .section-empty {
+    display: none;
   }
   .section-3 .section-text {
     width: 100%;
@@ -412,8 +415,8 @@ header .header-2 button {
   }
 }
 @media (max-width: 500px) {
-  .section-5 {
-    background-color: black;
+  .section-5 .section-empty {
+    display: none;
   }
   .section-5 .section-text {
     width: 100%;

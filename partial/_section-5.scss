@@ -68,7 +68,9 @@
 }
 @media(max-width:500px){
     .section-5{
-        background-color: black;
+        .section-empty{
+            display: none;
+        }
         .section-text{
        width: 100%;
        .container1{
