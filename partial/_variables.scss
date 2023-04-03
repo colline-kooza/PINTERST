@@ -1,0 +1,17 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+    font-family: 'League Spartan', sans-serif;
+}
+body{
+    width: 100vw;
+    p{
+        color: black;
+    }
+    span{
+        color: lightskyblue;
+    }
+    @media(max-width:500px){
+        width: 100vw;
+    }
+
+}

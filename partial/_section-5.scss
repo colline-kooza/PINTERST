@@ -1,0 +1,89 @@
+.section-5{
+    position: relative;
+    .custom-shape-divider-bottom-1680543758 {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        overflow: hidden;
+        line-height: 0;
+        transform: rotate(180deg);
+    }
+    
+    .custom-shape-divider-bottom-1680543758 svg {
+        position: relative;
+        display: block;
+        width: calc(100% + 1.3px);
+        height: 150px;
+    }
+    
+    .custom-shape-divider-bottom-1680543758 .shape-fill {
+        fill: #FFFFFF;
+    }
+    color: white;
+    height: 100vh;
+    background: linear-gradient(to right, #34537a04, #04effb83), url(https://media.istockphoto.com/id/1408387701/photo/social-media-marketing-digitally-generated-image-engagement.jpg?b=1&s=170667a&w=0&k=20&c=udzg1fifSWZqXvkBJyEAPe2iFGiEi9NxasBCpBAdogo=);
+    background-size: cover;
+    padding: 0px 30px;
+    display: flex;
+    align-items: center;
+    .section-text{
+     width: 50%;
+     .container1{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px;
+        img{
+            width: 25%;
+        }
+        h5{
+            color: #389195;
+        }
+     }
+    }
+    .section-empty{
+        width: 50%;
+    }
+
+}
+@media(max-width:768px){
+    .section-5{
+        
+        .section-text{
+       width: 100%;
+       .container1{
+        display: flex;
+        font-size: 30px;
+        gap: 20px;
+        .container2{
+            display: flex;
+            img{
+                width: 50%;
+            }
+        }
+       }
+        }
+    }
+}
+@media(max-width:500px){
+    .section-5{
+        background-color: black;
+        .section-text{
+       width: 100%;
+       .container1{
+        display: flex;
+        font-size: 15px;
+        gap: 20px;
+        .container2{
+            display: flex;
+            img{
+                width: 50%;
+            }
+        }
+       }
+        }
+    }
+}
+
+

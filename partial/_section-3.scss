@@ -1,0 +1,89 @@
+.section-3{
+    position: relative;
+    .custom-shape-divider-bottom-1680542740 {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        overflow: hidden;
+        line-height: 0;
+        transform: rotate(180deg);
+    }
+    
+    .custom-shape-divider-bottom-1680542740 svg {
+        position: relative;
+        display: block;
+        width: calc(240% + 1.3px);
+        height: 150px;
+    }
+    
+    .custom-shape-divider-bottom-1680542740 .shape-fill {
+        fill: #FFFFFF;
+    }
+        color: white;
+        height: 100vh;
+        background: linear-gradient(to right, #34537a1f, #04effbc0), url(https://images.unsplash.com/photo-1470434767159-ac7bf1b43351?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fG1hbiUyMG9uJTIwcGhvbmV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60);
+        background-size: cover;
+        padding: 0px 30px;
+        display: flex;
+        align-items: center;
+        .section-text{
+         width: 50%;
+         .container1{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            padding: 20px;
+            img{
+                width: 25%;
+            }
+            h5{
+                color: #389195;
+            }
+         }
+        }
+        .section-empty{
+            width: 50%;
+        }
+    
+    }
+    @media(max-width:768px){
+        .section-3{
+            background-color: black;
+            .section-text{
+           width: 100%;
+           .container1{
+            display: flex;
+            font-size: 30px;
+            gap: 20px;
+            .container2{
+                display: flex;
+                img{
+                    width: 50%;
+                }
+            }
+           }
+            }
+        }
+    }
+    @media(max-width:500px){
+        .section-3{
+            background-color: black;
+            .section-text{
+           width: 100%;
+           .container1{
+            display: flex;
+            font-size: 15px;
+            gap: 20px;
+            .container2{
+                display: flex;
+                img{
+                    width: 50%;
+                }
+            }
+           }
+            }
+        }
+    }
+    
+    
